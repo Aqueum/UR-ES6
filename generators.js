@@ -20,4 +20,5 @@ function* getEmployee() {
 }
 
 const generatorIterator = getEmployee();
-console.log(generatorIterator.next());
+console.log(generatorIterator.next().value);
+console.log(generatorIterator.next().value);
