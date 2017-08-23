@@ -43,4 +43,4 @@ name = generatorIterator.next(`${name} is awe-inspiring!`).value;
 const positions = generatorIterator.next(`${name} is magnificent!`).value;
 
 // displays each name with description on its own line
-positions.join('\n');
+console.log(positions.join('\n'));
