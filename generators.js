@@ -19,4 +19,5 @@ function* getEmployee() {
   console.log('the function has ended');
 }
 
-getEmployee();
+const generatorIterator = getEmployee();
+generatorIterator.next();
