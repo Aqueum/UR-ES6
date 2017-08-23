@@ -13,12 +13,11 @@ function* getEmployee() {
   ];
 
   for (const name of names) {
-    console.log(name);
-    yield;
+    yield name;
   }
 
   console.log('the function has ended');
 }
 
 const generatorIterator = getEmployee();
-generatorIterator.next();
+console.log(generatorIterator.next());
