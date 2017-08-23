@@ -14,6 +14,7 @@ function* getEmployee() {
 
   for (const name of names) {
     console.log(name);
+    yield;
   }
 
   console.log('the function has ended');
